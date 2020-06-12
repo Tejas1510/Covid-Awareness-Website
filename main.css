@@ -1,0 +1,46 @@
+#Title{
+	font-size:40px;
+	font-size: bold;
+	color: #1a75ff;
+	text-align: center;
+}
+.image1{
+margin-left: 50px;
+
+
+}
+#hashtag1{
+	color: #00ffcc
+
+}
+#Text{
+	font-size:20px; 
+	padding-left: 40px;
+	padding-right: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.Gif1 {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.Gif::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Causes {
+  float: left;
+  width: 50%;
+  padding: 25px;
+  padding-top: 50px;
+
+}
+.CauseSolution::after {
+  content: "";
+  clear: both;
+  display: table;
+}
