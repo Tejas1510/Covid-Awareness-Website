@@ -9,10 +9,13 @@
   margin-left: 50px;
   width: 75%;
   height: 100%;
+  padding-top: 30px;
+  transition: transform .8s ease-in-out;
 }
 
 .image1:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #hashtag1{
