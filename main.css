@@ -85,14 +85,12 @@
   float: left;
   padding: 20px;
   background-color: #e51f3b;
-  /*display: -webkit-box;*/
-  /*display: -ms-flexbox;*/
-  /*display: flex;*/
-  /*-ms-flex-wrap: wrap;*/
-  /*flex-wrap: wrap;*/
-  /*justify-content: center;*/
-  /*flex-direction: column;*/
+  transition: transform .8s ease-in-out;
 }
+.progress-block:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
 
 .progress-icon {
   text-align: center;
