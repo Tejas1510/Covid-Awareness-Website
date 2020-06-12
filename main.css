@@ -4,34 +4,43 @@
 	color: #1a75ff;
 	text-align: center;
 }
+
 .image1{
-margin-left: 50px;
-
-
+  margin-left: 50px;
+  width: 75%;
+  height: 100%;
 }
+
+.image1:hover {
+  transform: scale(1.1);
+}
+
 #hashtag1{
 	color: #00ffcc
-
 }
+
 #Text{
 	font-size:20px; 
 	padding-left: 40px;
 	padding-right: 40px;
 }
-* {
+
+*{
   box-sizing: border-box;
 }
 
 .Gif1 {
   float: left;
-  width: 50%;
+  width: 40%;
   padding: 15px;
 }
-.Gif::after {
-  content: "";
-  clear: both;
-  display: table;
+
+.Gif2 {
+  float: right;
+  width: 40%;
+  padding: 15px;
 }
+
 .Causes {
   float: left;
   width: 50%;
@@ -44,3 +53,113 @@ margin-left: 50px;
   clear: both;
   display: table;
 }
+
+.important-heading {
+  width: 100%;
+  /*margin-top: 40px;*/
+  margin-bottom: 20px;
+  color: #e51f3b;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+.progress-block-area {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.progress-block {
+  width: 20%;
+  margin-bottom: 12px;
+  float: left;
+  padding: 20px;
+  background-color: #e51f3b;
+  /*display: -webkit-box;*/
+  /*display: -ms-flexbox;*/
+  /*display: flex;*/
+  /*-ms-flex-wrap: wrap;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
+  /*flex-direction: column;*/
+}
+
+.progress-icon {
+  text-align: center;
+}
+
+.progress-text-area {
+  color: #fff;
+  text-align: center;
+}
+
+.progress-text-area p{
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.progress-text-area a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.progress-text-area a:hover {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.progress-text-area h3 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+
+/* Prevention Section */
+.followSteps-sec{}
+.stepHeading
+{ 
+  background: #316ed2; 
+  padding: 40px 0; 
+  position: relative
+}
+
+.stepHeading h2
+{ 
+  font-size: 48px; 
+  color: #fff; 
+  line-height: 54px; 
+  font-family: 'Gotham'; 
+  font-weight: bold
+}
+
+.stepHeading::after{
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(49, 110, 210, 0);
+  border-top-color: #316ed2;
+  border-width: 30px;
+  margin-left: -30px;
+}
+
+
+.steps-covid{ padding: 100px 0 0 0;}
+.covidThumb{ text-align: center; margin: 15px 0;}
+.covidThumb img{ width: 125px;}
+.covidThumb span{ display: block; font-size: 24px; line-height: 30px; font-weight: bold; color: #000; margin-top: 10px;}
