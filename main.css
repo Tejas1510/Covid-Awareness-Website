@@ -1,22 +1,97 @@
 
-
-.image1{
-  
-  width: 100%;
-  height: 100%;
-   transition: transform .8s ease-in-out;
+/* Navbar start */
+nav {
+  list-style-type: none;
+  margin: 1px solid black;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  font-size: 18px;
 }
 
+nav li {
+  float: left;
+}
 
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  /*word-spacing: 2px;*/
+  letter-spacing: 0.8px;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #ddd;
+  text-decoration: none;
+  text-underline-position: none;
+}
+
+nav li a.active {
+  color: white;
+  background-color: #4CAF50;
+  text-decoration: none;
+}
+
+/* Navbar end */
+
+.content {
+  margin: auto;
+  max-width: 90%;
+}
+
+hr {
+  height: 1px;
+  background-color: #ccc;
+}
+
+#Title{
+  font-size:40px;
+  font-size: bold;
+  color: #1a75ff;
+  text-align: center;
+}
+
+.image1 img {
+  margin-left: 5%;
+  width: 90%;
+  padding-top: 30px;
+  transition: transform .8s ease-in-out;
+}
+
+.image1 img:hover {
+  transform: scale(1.1);
+}
+
+.overview {
+  padding-top: 25px;
+}
+
+.overview h2 {
+  font-size: 40px;
+  color: #313131;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.overview p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #313131;
+}
 
 #hashtag1{
-	color: #00ffcc
+  color: #00ffcc
 }
 
-#Text{
-	font-size:20px; 
-	padding-left: 40px;
-	padding-right: 40px;
+#symptoms{
+  font-size:20px; 
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 *{
@@ -48,16 +123,8 @@
   display: table;
 }
 
-.important-heading {
-  width: 100%;
-  /*margin-top: 40px;*/
-  margin-bottom: 20px;
-  color: #e51f3b;
-  font-size: 2.5em;
-  text-align: center;
-  font-weight: normal;
-  line-height: 35px;
-}
+
+/* Important information start */
 
 .progress-block-area {
   margin-top: 25px;
@@ -78,10 +145,22 @@
   background-color: #e51f3b;
   transition: transform .8s ease-in-out;
 }
+
 .progress-block:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+}
+
+.important-heading {
+  width: 100%;
+  /*margin-top: 40px;*/
+  margin-bottom: 20px;
+  color: #e51f3b;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: normal;
+  line-height: 35px;
+}
 
 .progress-icon {
   text-align: center;
@@ -116,23 +195,24 @@
   margin-top: 10px;
 }
 
+/* Important information end */
 
-/* Prevention Section */
+/*Precautions section start*/
+
 .followSteps-sec{}
 .stepHeading
 { 
   background: #316ed2; 
-  padding: 40px 0; 
+  padding: 20px 0; 
   position: relative
 }
 
 .stepHeading h2
 { 
-  font-size: 48px; 
+  font-size: 35px; 
   color: #fff; 
   line-height: 54px; 
-  font-family: 'Gotham'; 
-  font-weight: bold
+  font-weight: bold;
 }
 
 .stepHeading::after{
@@ -149,118 +229,63 @@
   border-width: 30px;
   margin-left: -30px;
 }
-.mythbusters{
-  
-  font-size: 30px;
-  font-weight: bold;
-}
-.mythContainer{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width:80%;
-  height: 200px;
-  margin-left: 40px;
-  background: #EBFFFE;
 
+.steps-covid
+{ 
+  padding: 100px 0 0 0;
 }
-#line1{
-font-size: 30px;
-font-weight: bold;
-color: #FB9000;
-padding: 10px;
+
+.covidThumb
+{ 
+  text-align: center; 
 }
-#line2{
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
-font-size: 20px;
-color: black;
+
+.covidThumb img 
+{ 
+  width: 140px;
 }
-.button1{
-  background-color:#4777FA;
-  border: none;
-  color: white;
-  padding: 10px 20px;
+
+.covidThumb span
+{ 
+  display: block; 
+  font-size: 24px; 
+  line-height: 30px; 
+  font-weight: bold; 
+  color: #000; 
+  margin-top: 5px;
+  margin-bottom: 25px;
+}  
+
+/*Precautions section end*/
+
+
+/*Footer starts*/
+
+footer {
   text-align: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+  color: black;
+  font-size: 25px;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover{
   text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
-  margin-left: 10px;
-}
-.button1:hover{
-  background-color: #021CFF;
-}
-#activitites{
-  padding-left: 50px;
-  font-size: 30px;
-  font-weight: bold;
-}
-.Activity1 {
-  float: left;
-  width: 25%;
-  padding: 15px;
-  padding-bottom: 25px;
-  transition: transform .8s ease-in-out;
-}
-.Activity2 {
-  float: left;
-  width: 25%;
-  padding: 15px;
-  padding-bottom: 25px;
-  transition: transform .8s ease-in-out;
-}
-.Activity3 {
-  float: left;
-  width: 25%;
-  padding: 15px;
-  padding-bottom: 25px;
-  transition: transform .8s ease-in-out;
-}
-.Activity4 {
-  float: left;
-  width: 25%;
-  padding: 15px;
-  padding-bottom: 25px;
-  transition: transform .8s ease-in-out;
-}
-.Activity1:hover {
-  transform: scale(1.04);
-  
-}
-.Activity2:hover {
-  transform: scale(1.04);
-  
-}
-.Activity3:hover {
-  transform: scale(1.04);
-  
-}
-.Activity4:hover {
-  transform: scale(1.04);
+  color: black;
 }
 
-.mythbuster1{
-  float: left;
-  width: 45%;
-  padding: 15px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-left: 20px;
-  transition: transform .8s ease-in-out;
-}
-.mythbuster2{
-  float: left;
-  width: 45%;
-  padding: 15px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-left: 20px;
-  transition: transform .8s ease-in-out;
+footer a:active {
+  text-decoration: none;
+  color: black;
 }
 
-.steps-covid{ padding: 100px 0 0 0;}
-.covidThumb{ text-align: center; margin: 15px 0;}
-.covidThumb img{ width: 125px;}
-.covidThumb span{ display: block; font-size: 24px; line-height: 30px; font-weight: bold; color: #000; margin-top: 10px;}
+footer a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/*Footer end
