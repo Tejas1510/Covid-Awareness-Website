@@ -1,8 +1,8 @@
 # Covid-Awareness-Website
-It is a covid awareness Website made with simple bootstrap,html and css.
-It gives a detail information about precautions,symtoms and the causes of Corona virus guiding you about the various myth busters 
+It is a Covid19 Awareness Website made with simple html, css, and bootstrap.
+It gives a detail information about precautions, symptoms and the causes of Corona virus guiding you about the various myth busters 
 and activities talking place related to corona.
-In short it is got to website for anyone who want to information releated to corona and its update.
+In short it is go-to website for anyone who want information releated to corona and its updates.
 
 Created and Edited By:
 
@@ -10,6 +10,6 @@ Created and Edited By:
 Github Id: Tejas1510
 
 ### Rishabh Rathi - 
-Website: [Rishabh Rathi](http://www.rishabhrathi.co/)
-Github Id: [rishabhrathi22](https://github.com/rishabhrathi22)
+Website: [Rishabh Rathi](http://www.rishabhrathi.co/)\
+Github Id: [rishabhrathi22](https://github.com/rishabhrathi22)\
 LinkedIn: [rishabhrathi22](https://www.linkedin.com/in/rishabhrathi22/)
