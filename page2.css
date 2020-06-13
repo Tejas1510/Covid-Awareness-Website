@@ -150,3 +150,120 @@ img {
 	max-width: 32.33%;
 	margin-bottom: 10px;
 }
+
+#activitites,#mythbusters{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: baseline;
+	text-decoration: none;
+	color: #6c6c6c;
+}
+.Activity1 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Activity2 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Activity3 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+   padding-top: 0px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Activity4 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+   padding-top: 0px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Activity1:hover {
+  transform: scale(1.04);
+  
+}
+.Activity2:hover {
+  transform: scale(1.04);
+  
+}
+.Activity3:hover {
+  transform: scale(1.04);
+  
+}
+.Activity4:hover {
+  transform: scale(1.04);
+}
+
+.Myth-6,.Myth-7,.Myth-8{
+  float: left;
+  width: 33%;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Myth-6:hover{
+  transform: scale(1.03);
+  
+}
+.Myth-7:hover{
+  transform: scale(1.03);
+  
+}
+.Myth-8:hover{
+  transform: scale(1.03);
+  
+}
+.Myth-9,.Myth-10,.Myth-11{
+  float: left;
+  width: 33%;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Myth-9:hover{
+  transform: scale(1.03);
+  
+}
+.Myth-10:hover{
+  transform: scale(1.03);
+  
+}
+.Myth-11:hover{
+  transform: scale(1.03);
+  
+}
+.Myth-12,.Myth-13,.Myth-14{
+  float: left;
+  width: 33%;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Myth-12:hover{
+  transform: scale(1.03);
+  
+}
+.Myth-13:hover{
+  transform: scale(1.03);
+  
+}
+.Myth-14:hover{
+  transform: scale(1.03);
+  
+}
