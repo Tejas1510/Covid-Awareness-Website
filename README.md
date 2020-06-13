@@ -6,6 +6,10 @@ In short it is got to website for anyone who want to information releated to cor
 
 Created and Edited By:
 
-Tejas Tapas   Github Id:Tejas1510
+### Tejas Tapas -
+Github Id: Tejas1510
 
-Rishabh Rathi  Github Id:rishabhrathi22
+### Rishabh Rathi - 
+Website: [Rishabh Rathi](http://www.rishabhrathi.co/)
+Github Id: [rishabhrathi22](https://github.com/rishabhrathi22)
+LinkedIn: [rishabhrathi22](https://www.linkedin.com/in/rishabhrathi22/)
