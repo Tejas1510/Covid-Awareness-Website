@@ -8,4 +8,4 @@ Created and Edited By:
 
 Tejas Tapas   Github Id:Tejas1510
 
-Rishab Rathi  Github Id:rishabhrathi22
+Rishabh Rathi  Github Id:rishabhrathi22
