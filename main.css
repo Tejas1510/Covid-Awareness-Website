@@ -1,22 +1,13 @@
-#Title{
-	font-size:40px;
-	font-size: bold;
-	color: #1a75ff;
-	text-align: center;
-}
+
 
 .image1{
-  margin-left: 50px;
-  width: 75%;
+  
+  width: 100%;
   height: 100%;
-  padding-top: 30px;
-  transition: transform .8s ease-in-out;
+   transition: transform .8s ease-in-out;
 }
 
-.image1:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+
 
 #hashtag1{
 	color: #00ffcc
@@ -158,7 +149,116 @@
   border-width: 30px;
   margin-left: -30px;
 }
+.mythbusters{
+  
+  font-size: 30px;
+  font-weight: bold;
+}
+.mythContainer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:80%;
+  height: 200px;
+  margin-left: 40px;
+  background: #EBFFFE;
 
+}
+#line1{
+font-size: 30px;
+font-weight: bold;
+color: #FB9000;
+padding: 10px;
+}
+#line2{
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 20px;
+color: black;
+}
+.button1{
+  background-color:#4777FA;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-left: 10px;
+}
+.button1:hover{
+  background-color: #021CFF;
+}
+#activitites{
+  padding-left: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.Activity1 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Activity2 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Activity3 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Activity4 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  padding-bottom: 25px;
+  transition: transform .8s ease-in-out;
+}
+.Activity1:hover {
+  transform: scale(1.04);
+  
+}
+.Activity2:hover {
+  transform: scale(1.04);
+  
+}
+.Activity3:hover {
+  transform: scale(1.04);
+  
+}
+.Activity4:hover {
+  transform: scale(1.04);
+}
+
+.mythbuster1{
+  float: left;
+  width: 45%;
+  padding: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 20px;
+  transition: transform .8s ease-in-out;
+}
+.mythbuster2{
+  float: left;
+  width: 45%;
+  padding: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 20px;
+  transition: transform .8s ease-in-out;
+}
 
 .steps-covid{ padding: 100px 0 0 0;}
 .covidThumb{ text-align: center; margin: 15px 0;}
